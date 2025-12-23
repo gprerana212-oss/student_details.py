@@ -1,14 +1,7 @@
 def student_details(sid, sname, age):
-    result = (
-        f"Student ID: {sid}\n"
-        f"Student Name: {sname}\n"
-        f"Age: {age}\n"
+    return (
+        f"studentid:{sid}\n"
+        f"studentname:{sname}\n"
+        f"studentage:{age}"
     )
-    return result
 
-
-if __name__ == "__main__":
-    sid = "001"
-    sname = "Priya"
-    age = "20"
-    print(student_details(sid, sname, age))
