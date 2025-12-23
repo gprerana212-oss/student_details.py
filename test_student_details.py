@@ -1,4 +1,5 @@
-from student import student_details
+from student_details import student_details
+
 
 def test_student_details():
     sid = "001"
